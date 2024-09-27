@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <Style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /*Ganha a cor indicada no caso do site já ter sido visitado anteriormente*/
+        a:visited { 
+            color:brown
+        }
+
+        /*Algum tipo de movimento no link*/
+        a:hover{
+            text-decoration: underline;
+            color:black
+        }
+
+        /*Muda a cor do link só enquanto ele estiver sendo clicado*/
+        a:active{
+            color:aqua
+        }
+
+        a::before{
+            content: '↳';
+            color: yellow;
+        }
+
+        a::after{
+            content: '⇐';
+            color: rgb(31, 34, 31)
+        }
+
+
+    </Style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.jasonb.com.br" target="_blank">Site consultoria</a></li>
+        <li><a href="https://www.instagram.com/jason.brum_" target="_blank">Perfil do Instagram</a></li>
+        <li><a href="https://perviamo.com.br" target="_blank">Site Perviamo</a></li>
+
+    </ul>
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>O comando document.getElementById ('teste') é escrito em linguagem JavaScript. </p>
+
+    <p>No entanto, como pode ser visto acima, as letras ficam muito juntas por não serem monoespaçadas e a solução para isso é colocá-las dentro de uma tag code. <br> <strong>Veja o exemplo abaixo.</strong> </p> 
+    <p>O comando <code>document.getElementById ('teste')</code> é escrito em linguagem JavaScript.</p>
+    <h3>Mais um exemplo abaixo em linguagem Ptyhon</h3>
+    <code> 
+        num = int(imput ('digite um número'))
+        if num % 2 == 0:
+        print(f' O número{num} é par)
+        else:
+        print(f' O número {num} é ímpar)
+        print('Fim do programa')
+       </code>
+
+       <p>Porém da maneira utilizada acima, o código não coloca identação, ou seja, o código fica todo um ao lado do outro.</p>
+       <p>A maneira correta é colocar todo o conteúdo acima, inclusiva a tag code, dentro de outra tag chamada pre. <strong>Veja o exemplo abaixo</strong></p>
+       <pre>
+           <code>
+            num = int(imput ('digite um número'))
+            if num % 2 == 0:
+            print(f' O número{num} é par)
+            else:
+            print(f' O número {num} é ímpar)
+            print('Fim do programa')
+           </code>
+       </pre>
+
+    <H2>Citações</H2>
+    <h3>Citações simples</h3>
+    <p>Como dizia Drummond: <q>A amizade é um meio de nos isolarmos da humanidade cultivando algumas pessoas.</q></p>
+    <h3>Citações completas</h3>
+    <p>Segundo Manoel das Candongas, no seu livro Blá Blá Blá: <blockquote cite="https://www.google.com.br/books/edition/Cadernos_de_Cinema_Ruy_Guerra/kiXCzwEACAAJ?hl=pt-BR">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sapiente, laboriosam odit at accusantium possimus quas. Fuga eveniet nam quod numquam eligendi nulla doloribus molestiae, neque delectus sapiente. Ipsum, dolorum.</blockquote></p>
+<p>Para isso, deve-se usar a tag BLOCKQUOTE. Já para citar a fonte onde essa informação foi encontrada, dentro da tag BLOCKQUOTE, basta criar um parâmetro CITE, mas isso não vai aparecer visível, somente os mecanismos de busca entenderão.</p>
+<h2>Abreviações</h2>
+<p>Estou trabalhando no <abbr title="Instituto Brasileiro de Geografia e Estatística">IBGE</abbr>, mas devo ser transferido para o <abbr title="Instituto Nacional de Colonização e Reforma Agrária">INCRA</abbr></p>
+<aside>Tag aside faz o que?</aside>
+
+</body>
+</html>

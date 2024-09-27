@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Chat GPT 4</title>
+</head>
+<body style="background-color: rgb(240, 240, 171);">
+    
+    <h1 style="color: darkblue; font-family: Arial, Helvetica, sans-serif;">Exercício 04 Chat GPT</h1>
+    <p>Neste exercício devo desenvolver os seguintes elementos abaixo</p>
+    <ul>
+        <li>Listas ordenadas e não ordenadas (essa já uma, inclusive)</li>
+        <li>Listas mistas e de definição</li>
+        <li>Links internos, externos e para download</li>
+        <li>Imagens dinâmicas que se adpatam ao tamanho da tela</li>
+        <li>Áudio e vídeo auto-hospedado, além de vídeo integrado do YouTube.</li>
+        <li>CSS inline para estilizar alguns elementos</li>
+    </ul>
+
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Listas Ordenadas</h2>
+    <h3>Destinos preferidos no Brasil</h3>
+    <ol>
+        <li>Lençóis Maranhenses</li>
+        <li>Boipeba</li>
+        <li>São Miguel dos Milagres</li>
+        <li>Urubici</li>
+        <li>Chapada dos Veadeiros</li>
+    </ol>
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Listas não ordenadas</h2>
+    <h3>Países que quero conhecer</h3>
+    <ul>
+        <li>Itália</li>
+        <li>China</li>
+        <li>Camboja</li>
+        <li>Croácia</li>
+        <li>Marrocos</li>
+        <li>Chile</li>
+        <li>Costa Rica</li>
+        <li>Islândia</li>
+        <li>Dinamarca</li>
+    </ul>
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Listas mistas</h2> 
+
+    <h3>Países e cidades que já conheci</h3>
+    <ol>
+        <li>Paraguai
+            <ul>
+                <li>Ciudad del Este</li>
+                <li>Assuncion</li>
+            </ul>
+        </li>
+        <li>Argentina
+            <ul>
+                <li>Buenos Aires</li>
+                <li>El Calafate</li>
+                <li>El Chaltén</li>
+            </ul>
+        </li>
+        <li>Peru</li>
+        <ul>
+            <li>Lima</li>
+        </ul>
+        <li>Estador Unidos</li>
+        <ul>
+            <li>Orlando</li>
+            <li>Nova York</li>
+            <li>Miami</li>
+            <li>Los Angeles</li>
+            <li>Las Vegas</li>
+            <li>Boston</li>
+            <li>Williams</li>
+            <li>St. Augustine</li>
+        </ul>
+    </ol>
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Listas de definição</h2>
+    <h3>Outros países que conheci</h3>
+    <dl>
+        
+        <dt>Portugal</dt>
+        <dd>País da Europa, localizado na península ibérica</dd>
+        <dt>Canadá</dt>
+        <dd>País da América do Norte</dd>
+        <dt>Uruguai</dt>
+        <dd>País da América do Sul</dd>
+        <dt>Tailândia</dt>
+        <dd>País do sudeste asiático</dd>
+        <dt>Laos</dt>
+        <dd>País do sudeste asiático</dd>
+        <dt>Vietnã</dt>
+        <dd>País do sudeste asiático</dd>
+        <dt>Bolívia</dt>
+        <dd>País da América do Sul</dd>
+
+    </dl>
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Todos os tipos de links</h2>
+
+    <h3>Link interno</h3>
+
+    <p>Neste <a href="pagina02.html">link interno</a>, você vai visitar outra página do meu site</p>
+
+    <h3>Link externo</h3>
+
+    <p>Você pode conhecer um pouco mais do meu trabalho em <a href="https://www.jasonb.com.br/" target="_blank">meu site</a>, clicando no link.</p>
+
+    <h3>Links para download</h3>
+    <p>Você pode baixar os arquivos clicando nos links abaixo</p>
+    <ul>
+        <li><a href="arquivosparabaixar/pdfsoprabaixar.pdf">Livro em PDF</a></li>
+        <li><a href="arquivosparabaixar/Fotos horizontais para os sites.zip">Fotos zipadas</a></li>
+    </ul>
+
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Imagens dinâmicas que se adaptam ao tamanho da tela</h2>
+
+    <p>A imagem abaixo deve se adaptar de acordo com o tamanho de tela em que for aberta</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+    
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Inserção de vídeos</h2>
+    <p>Abaixo você pode ver um vídeo auto-hospedado e em seguida um vídeo hospedado no YouTube</p>
+
+    <video width="560" poster="midia/limoes.jpg" controls>
+
+    <source src="midia/meu-video-2.webm" type="video/webm">
+    <source src="midia/meu-video-2.mkv" type="video/mkv">
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dXZRgW-X2ls?si=QUpq7joDSTcZTCa2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h2 style="color: red; font-family: Arial, Helvetica, sans-serif;">Inserção de áudio</h2>
+
+<p>Abaixo um aúdio</p>
+<audio src="audio-teste.mp3" controls autoplay></audio>
+
+</body>
+</html>
